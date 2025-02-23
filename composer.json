@@ -32,6 +32,9 @@
         }
     },
     "scripts": {
+        "phpstan": [
+            "./vendor/bin/phpstan analyse"
+        ],
         "pint": [
             "./vendor/bin/pint"
         ],
